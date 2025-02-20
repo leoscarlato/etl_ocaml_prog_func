@@ -1,4 +1,4 @@
-# C:\Users\Asus\AppData\Local\opam\default\bin\dune.exe init project projeto_etl
+# C:\Users\Asus\AppData\Local\opam\default\bin\dune.exe exec .\_build\install\default\bin\projeto_etl.exe
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location:
@@ -6,3 +6,13 @@
 # Workspace root:
 # "C:\\Users\\Asus\\Documents\\Mat\195\169rias\\prog-funcional\\etl_ocaml_prog_func\\projeto_etl"
 # Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ C:\Users\Asus\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\Asus\AppData\Local\Temp\dune_703184_output
