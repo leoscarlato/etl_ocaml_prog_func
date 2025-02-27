@@ -1,4 +1,5 @@
 (executable
- (public_name projeto_etl)
+ (public_name projeto_etl)  
  (name main)
- (libraries projeto_etl))
+ (libraries etl_lib)        
+)

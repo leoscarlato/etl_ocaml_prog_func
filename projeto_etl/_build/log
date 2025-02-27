@@ -1,4 +1,4 @@
-# C:\Users\Asus\AppData\Local\opam\default\bin\dune.exe exec .\_build\install\default\bin\projeto_etl.exe
+# C:\Users\Asus\AppData\Local\opam\default\bin\dune.exe exec projeto_etl
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location:
@@ -15,4 +15,4 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ C:\Users\Asus\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\Asus\AppData\Local\Temp\dune_703184_output
+$ C:\Users\Asus\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\Asus\AppData\Local\Temp\dune_35bbe7_output
