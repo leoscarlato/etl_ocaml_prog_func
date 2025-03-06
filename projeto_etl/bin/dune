@@ -1,5 +1,6 @@
 (executable
  (public_name projeto_etl)  
  (name main)
- (libraries etl_lib)        
+ (libraries csv)      
+ (modules main data_processing_functions order_functions order_item_functions types)  
 )
