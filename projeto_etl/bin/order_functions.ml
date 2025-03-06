@@ -21,3 +21,5 @@ let read_orders filename =
 let string_of_order order =
   Printf.printf "Pedido %d, Cliente %d, Data: %s, Status: %s, Origem: %s\n"
     order.id order.client_id order.order_date order.status order.origin     
+
+    
