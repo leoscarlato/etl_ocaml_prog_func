@@ -5,3 +5,6 @@ module Etl = Etl_lib__Etl
 
 (** @canonical Etl_lib.Order_functions *)
 module Order_functions = Etl_lib__Order_functions
+
+(** @canonical Etl_lib.Order_item_functions *)
+module Order_item_functions = Etl_lib__Order_item_functions
