@@ -1,3 +1,4 @@
+(** Record para representar os dados vindos do arquivo "order.csv" *)
 type order = {
   id: int;
   client_id: int;
@@ -6,6 +7,7 @@ type order = {
   origin: string;
 }
 
+(** Record para representar os dados vindos do arquivo "order_item.csv" *)
 type order_item = {
   order_id: int;
   product_id: int;
