@@ -1,5 +1,6 @@
 open Types
 
+(** Lê um arquivo CSV de pedidos e converte cada linha em um record do tipo "order". *)
 let read_orders filename =
   let csv = Csv.load filename in
   match csv with
@@ -16,10 +17,3 @@ let read_orders filename =
             }
         | _ -> failwith "csv invalido"
       ) rows
-
-        
-let string_of_order order =
-  Printf.printf "Pedido %d, Cliente %d, Data: %s, Status: %s, Origem: %s\n"
-    order.id order.client_id order.order_date order.status order.origin     
-
-    

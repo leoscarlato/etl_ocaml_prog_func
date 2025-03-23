@@ -1,1 +1,1 @@
-lib/order_item_functions.ml: Csv List Printf Types
+lib/order_item_functions.ml: Csv List Types

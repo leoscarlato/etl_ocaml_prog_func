@@ -1,6 +1,11 @@
 open Data_processing_functions
 open Types
 
+(** 
+  Gera um arquivo CSV contendo os campos "order_id", "total_amount" e "total_taxes"
+  a partir dos dados combinados de pedidos e seus itens.
+  Cada linha da saída representa um pedido com o total da receita e o total de impostos pagos.
+*)
 let write_output_csv filename joined_data =
   let header = ["order_id"; "total_amount"; "total_taxes"] in
   let rows =

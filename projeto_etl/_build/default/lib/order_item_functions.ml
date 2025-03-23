@@ -1,9 +1,10 @@
 open Types
 
+(** Lê um arquivo CSV de itens de pedido e converte cada linha em um record do tipo "order_item". *)
 let read_order_items filename =
   let csv = Csv.load filename in
   match csv with
-  | [] ->[]  
+  | [] -> []  
   | _header :: rows ->
       List.map (fun row ->
         match row with
@@ -16,7 +17,3 @@ let read_order_items filename =
             }
         | _ -> failwith "csv inválido"
       ) rows
-      
-let string_of_order_item order_item =
-  Printf.sprintf "Pedido: %d, Produto: %d, Quantidade: %d, Preço: %.2f, Taxa: %.2f"
-  order_item.order_id order_item.product_id order_item.quantity order_item.price order_item.tax
