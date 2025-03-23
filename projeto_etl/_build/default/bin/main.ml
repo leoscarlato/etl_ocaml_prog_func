@@ -1,7 +1,7 @@
-open Order_functions
-open Order_item_functions
-open Data_processing_functions
-open Output_functions
+open Projeto_etl.Order_functions
+open Projeto_etl.Order_item_functions
+open Projeto_etl.Data_processing_functions
+open Projeto_etl.Output_functions
 
 let () =
   let orders = read_orders "data/order.csv" in
