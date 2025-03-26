@@ -1,4 +1,4 @@
-# C:\Users\leona\AppData\Local\opam\default\bin\dune.exe exec projeto_etl
+# C:\Users\leona\AppData\Local\opam\default\bin\dune.exe runtest
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location:
@@ -15,4 +15,8 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ C:\Users\leona\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\leona\AppData\Local\Temp\dune_a74fea_output
+$ C:\Users\leona\AppData\Local\opam\default\bin\ocamlc.opt.exe -config > C:\Users\leona\AppData\Local\Temp\dune_ae8e8f_output
+$ (cd _build/default/test && .\test_projeto_etl.exe)
+> ........
+> Ran: 8 tests in: 0.00 seconds.
+> OK
