@@ -62,8 +62,8 @@ Cada etapa (Extract, Transform, Load) segue organizada de forma a manter funçõ
    git clone https://github.com/leoscarlato/etl_ocaml_prog_func
    ``` 
 2. **Instalar dependências**:
+   - OPAM Package (OCaml)
    - Dune (versão maior ou igual à 3.17)
-   - OCaml
    - OUnit2
    - CSV  
 3. **Compilar** o projeto:
