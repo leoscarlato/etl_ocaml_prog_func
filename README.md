@@ -41,7 +41,7 @@ A estrutura básica segue a separação entre funções puras e impuras:
 - **Arquivo `data_processing_functions.ml`**  
   Contém funções puras para realizar as seguintes operações:
   1. Filtragem da lista de pedidos com base em status e origem desejados pelo usuário.
-  2. Junção das tabelas, associando cada pedido à lista de itens com o mesmo order_id.
+  2. Junção das tabelas, associando cada pedido à lista de itens com o mesmo `order_id`.
   3. Cálculo do total de receita e taxas para uma lista de itens.  
   
 - **Arquivo `output_functions.ml`** (funções de escrita, impuras)  
